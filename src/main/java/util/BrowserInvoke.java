@@ -47,6 +47,10 @@ public class BrowserInvoke extends SeleniumHelpers{
 	public static void closeBrowser()
 	{
 		driver.quit();
+		
+		System.out.println("closed browser");
+		
+		
 	}
 	
 
